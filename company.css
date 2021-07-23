@@ -2,6 +2,10 @@
   font-family: "Poppins", sans-serif;
 }
 
+.body {
+  background-color: rebeccapurple !important;
+}
+
 .navbar {
   background-color: #f3e7ff !important;
 }
@@ -36,20 +40,57 @@
   margin: auto;
   display: flex;
   flex-wrap: wrap;
-  margin-top: 2rem;
+  margin-top: 0.7rem;
 }
 
 .card {
+  padding: 1.1rem;
   margin: 2rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
   flex-wrap: wrap !important;
   height: 24rem;
   width: 22rem;
-  background-color: #bc76ff;
   justify-content: space-evenly;
   margin-left: 2.2rem;
+}
+
+.company-logo {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-self: center;
+}
+
+.company-logo > img {
+  display: flex;
+  justify-content: center;
+  height: 10rem;
+  width: 80%;
+  margin: auto;
+}
+
+.register-button {
+  background-image: linear-gradient(to right, #8ec5fc 0%, #da22ff 100%);
+}
+.register-button {
+  margin: 36px 76px;
+  padding: 10px 45px;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  border-radius: 10px;
+  display: block;
+  border: none;
+  height: 3rem;
+}
+
+.register-button:hover {
+  background-position: right center;
+  color: #fff;
+  text-decoration: none;
 }
