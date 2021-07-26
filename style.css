@@ -1,0 +1,41 @@
+.pad
+{
+    padding-top: 1rem;
+    color:#9e8b8b;
+    font-family: 'Poppins', sans-serif;
+    line-height:1.8 ;
+
+}
+.boder
+{
+    padding: 1rem;
+    border-bottom: 3px solid #DCDCDC ;
+
+}
+.heading
+{
+    padding-top: 2rem;
+    color:#bc76ff;   
+
+}
+.text-center
+{
+    margin-top: 5rem;
+}
+.place
+{
+    font-weight:bolder;
+    padding-top: 2rem;
+}
+
+.sidehead
+{
+    font-weight:bolder;
+    color: black;
+
+
+}
+
+
+
+
