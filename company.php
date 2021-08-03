@@ -17,9 +17,9 @@
 <body>
 
     <!-- Navbar Start -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <img style="margin-left: 3rem;" src="Images/TNP_Logo.png" width="40px" height="40px" alt="">
-        <a class="navbar-brand ml-3 " id="hideonmobile1" href="#">Traning and Placement Center</a>
+        <a class="navbar-brand ml-3 " id="hideonmobile1" href="#">Training and Placement Center</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>

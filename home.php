@@ -3,21 +3,43 @@
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Page Title</title>
+    <title>HOME</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel="stylesheet" href="styles/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+   
     <link rel="preconnect" href="https://fonts.googleapis.com"> 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-   <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap" rel="stylesheet">
-    <script src='main.js'></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300&display=swap" rel="stylesheet">
+    
 
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-    <div class="text-center">
+     <!-- Navbar Start -->
+     <nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-4">
+        <img style="margin-left: 3rem;" src="Images/TNP_Logo.png" width="40px" height="40px" alt="">
+        <a class="navbar-brand ml-3 " id="hideonmobile1" href="#">Training and Placement Center</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto mx-5 px-5">
+            <li class="nav-item ">
+              <a class="nav-link" href="company.php">Companies <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Placed Students</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Your Profile</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    <!-- Navbar End -->
+    
+    <!-- <div class="text-center">
         <img src="logos.png" class="rounded" alt="">
       </div>
       <div class="container place" style="text-align: center;">
@@ -25,8 +47,41 @@
       </div>
       <div class="container place" style="text-align: center; ">
           <h4>PLACEMENT CELL</h4>
-      </div>
-
+      </div> -->
+<div class="container-fluid">
+    <div class="row d-flex justify-content-center ">
+<div class="col col-lg-8 col-xl-9">
+  
+        <div id="carouselExampleIndicators"  class="carousel slide " data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+              </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img style="height: 450px;" src="Images/cse1.jpg" class="d-block w-100 " alt="...">
+              </div>
+              <div class="carousel-item">
+                <img style="height: 450px;" src="Images/cse2.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img style="height: 450px;" src="Images/cse4.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+          </div>
+</div>
+    </div>
+</div>
+      
 
       <div class="container">
         <p class="pad boder">

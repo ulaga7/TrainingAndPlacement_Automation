@@ -1,8 +1,11 @@
+* {
+    font-family: "Poppins", sans-serif;
+  }
 .pad
 {
     padding-top: 1rem;
     color:#9e8b8b;
-    font-family: 'Poppins', sans-serif;
+    
     line-height:1.8 ;
 
 }
@@ -36,6 +39,32 @@
 
 }
 
+.navbar {
+  background-color: black !important;
+}
+
+.navbar-dark .navbar-brand {
+  font-weight: 900;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+}
+
+ .nav-link:hover {
+  color: #bc76ff !important;
+  border-bottom: #bc76ff 1px solid;
+}
 
 
 
+.nav-item {
+  padding-left: 1.2rem;
+}
+
+
+@media (max-width: 540px) {
+  #hideonmobile1 {
+    display: none;
+  }
+}
