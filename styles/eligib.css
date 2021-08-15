@@ -1,0 +1,32 @@
+* {
+  font-family: "Roboto Mono", monospace;
+}
+
+.eligib-cal {
+  margin-top: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-control {
+  width: 130%;
+}
+
+.instruction-box {
+  padding: 5px;
+  margin-top: 3%;
+  border: 1px solid black;
+}
+
+.checkbox-group {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.form-check {
+  margin-left: 30px;
+}
